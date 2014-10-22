@@ -18,7 +18,6 @@
 		75BEFB1119F7A4E2008DAB87 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BEFB0A19F7A4E2008DAB87 /* SWUtilityButtonTapGestureRecognizer.m */; };
 		75BEFB1219F7A4E2008DAB87 /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BEFB0C19F7A4E2008DAB87 /* SWUtilityButtonView.m */; };
 		75BEFB1419F7CB5F008DAB87 /* complete.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 75BEFB1319F7CB5F008DAB87 /* complete.pdf */; };
-		75BEFB1719F7CB83008DAB87 /* AOCPDFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BEFB1619F7CB83008DAB87 /* AOCPDFViewController.m */; };
 		75BEFB3819F7D42F008DAB87 /* complete-page1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75BEFB1819F7D42F008DAB87 /* complete-page1.jpg */; };
 		75BEFB3919F7D42F008DAB87 /* complete-page2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75BEFB1919F7D42F008DAB87 /* complete-page2.jpg */; };
 		75BEFB3A19F7D42F008DAB87 /* complete-page3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75BEFB1A19F7D42F008DAB87 /* complete-page3.jpg */; };
@@ -51,6 +50,7 @@
 		75BEFB5519F7D42F008DAB87 /* complete-page30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75BEFB3519F7D42F008DAB87 /* complete-page30.jpg */; };
 		75BEFB5619F7D42F008DAB87 /* complete-page31.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75BEFB3619F7D42F008DAB87 /* complete-page31.jpg */; };
 		75BEFB5719F7D42F008DAB87 /* complete-page32.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 75BEFB3719F7D42F008DAB87 /* complete-page32.jpg */; };
+		75BEFB5D19F7F339008DAB87 /* AOCCatalogViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 75BEFB5C19F7F339008DAB87 /* AOCCatalogViewer.m */; };
 		75D741AA19F5431500AE9472 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D741A919F5431500AE9472 /* Foundation.framework */; };
 		75D741AC19F5431500AE9472 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D741AB19F5431500AE9472 /* CoreGraphics.framework */; };
 		75D741AE19F5431500AE9472 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D741AD19F5431500AE9472 /* UIKit.framework */; };
@@ -108,8 +108,6 @@
 		75BEFB0B19F7A4E2008DAB87 /* SWUtilityButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWUtilityButtonView.h; sourceTree = "<group>"; };
 		75BEFB0C19F7A4E2008DAB87 /* SWUtilityButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWUtilityButtonView.m; sourceTree = "<group>"; };
 		75BEFB1319F7CB5F008DAB87 /* complete.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = complete.pdf; sourceTree = "<group>"; };
-		75BEFB1519F7CB83008DAB87 /* AOCPDFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOCPDFViewController.h; sourceTree = "<group>"; };
-		75BEFB1619F7CB83008DAB87 /* AOCPDFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOCPDFViewController.m; sourceTree = "<group>"; };
 		75BEFB1819F7D42F008DAB87 /* complete-page1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "complete-page1.jpg"; sourceTree = "<group>"; };
 		75BEFB1919F7D42F008DAB87 /* complete-page2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "complete-page2.jpg"; sourceTree = "<group>"; };
 		75BEFB1A19F7D42F008DAB87 /* complete-page3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "complete-page3.jpg"; sourceTree = "<group>"; };
@@ -142,6 +140,8 @@
 		75BEFB3519F7D42F008DAB87 /* complete-page30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "complete-page30.jpg"; sourceTree = "<group>"; };
 		75BEFB3619F7D42F008DAB87 /* complete-page31.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "complete-page31.jpg"; sourceTree = "<group>"; };
 		75BEFB3719F7D42F008DAB87 /* complete-page32.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "complete-page32.jpg"; sourceTree = "<group>"; };
+		75BEFB5B19F7F339008DAB87 /* AOCCatalogViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AOCCatalogViewer.h; sourceTree = "<group>"; };
+		75BEFB5C19F7F339008DAB87 /* AOCCatalogViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AOCCatalogViewer.m; sourceTree = "<group>"; };
 		75D741A619F5431500AE9472 /* Markets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Markets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D741A919F5431500AE9472 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75D741AB19F5431500AE9472 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -280,8 +280,8 @@
 				75BEFAFB19F791B9008DAB87 /* AOCDataService.m */,
 				75BEFAFD19F794CB008DAB87 /* AOCWishListDataService.h */,
 				75BEFAFE19F794CB008DAB87 /* AOCWishListDataService.m */,
-				75BEFB1519F7CB83008DAB87 /* AOCPDFViewController.h */,
-				75BEFB1619F7CB83008DAB87 /* AOCPDFViewController.m */,
+				75BEFB5B19F7F339008DAB87 /* AOCCatalogViewer.h */,
+				75BEFB5C19F7F339008DAB87 /* AOCCatalogViewer.m */,
 			);
 			path = Markets;
 			sourceTree = "<group>";
@@ -501,12 +501,12 @@
 				75D741B619F5431500AE9472 /* main.m in Sources */,
 				75BEFB0E19F7A4E2008DAB87 /* SWCellScrollView.m in Sources */,
 				75D741C319F5431500AE9472 /* AOCSecondViewController.m in Sources */,
-				75BEFB1719F7CB83008DAB87 /* AOCPDFViewController.m in Sources */,
 				75BEFB0D19F7A4E2008DAB87 /* NSMutableArray+SWUtilityButtons.m in Sources */,
 				75BEFB0F19F7A4E2008DAB87 /* SWLongPressGestureRecognizer.m in Sources */,
 				75BEFB1019F7A4E2008DAB87 /* SWTableViewCell.m in Sources */,
 				75D741C019F5431500AE9472 /* AOCFirstViewController.m in Sources */,
 				75BEFAF919F79078008DAB87 /* AOCWishTableViewController.m in Sources */,
+				75BEFB5D19F7F339008DAB87 /* AOCCatalogViewer.m in Sources */,
 				75BEFAFF19F794CB008DAB87 /* AOCWishListDataService.m in Sources */,
 				75BEFB1219F7A4E2008DAB87 /* SWUtilityButtonView.m in Sources */,
 				75D741EF19F6786500AE9472 /* AOCItem.m in Sources */,

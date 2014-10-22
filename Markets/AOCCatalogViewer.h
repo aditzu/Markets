@@ -1,5 +1,5 @@
 //
-//  AOCPDFViewController.h
+//  AOCCatalogViewer.h
 //  Markets
 //
 //  Created by Andrei Oprea on 22/10/14.
@@ -8,11 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AOCPDFViewController : UIViewController
-
-{
-    IBOutlet UIWebView* pdfViewer;
-    
-}
+@interface AOCCatalogViewer : UIPageViewController
 
 @end

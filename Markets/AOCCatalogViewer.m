@@ -1,34 +1,34 @@
 //
-//  AOCPDFViewController.m
+//  AOCCatalogViewer.m
 //  Markets
 //
 //  Created by Andrei Oprea on 22/10/14.
 //  Copyright (c) 2014 AOC Dev. All rights reserved.
 //
 
-#import "AOCPDFViewController.h"
+#import "AOCCatalogViewer.h"
 
-@interface AOCPDFViewController ()
+@interface AOCCatalogViewer ()
 
 @end
 
-@implementation AOCPDFViewController
+@implementation AOCCatalogViewer
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        
+        // Custom initialization
     }
     return self;
+    
+
 }
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [pdfViewer loadData:[NSData dataWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"complete" ofType: @"pdf"]] MIMEType:@"application/pdf" textEncodingName:nil baseURL:nil];
-    pdfViewer.paginationMode = UIWebPaginationModeLeftToRight;
-    pdfViewer.pageLength = 300;
+    [self setViewControllers:@[[self.storyboard instantiateViewControllerWithIdentifier:@"CatalogPage"]] direction:<#(UIPageViewControllerNavigationDirection)#> animated:<#(BOOL)#> completion:<#^(BOOL finished)completion#>]
 }
 
 - (void)didReceiveMemoryWarning

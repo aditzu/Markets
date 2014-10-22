@@ -257,36 +257,6 @@
             </objects>
             <point key="canvasLocation" x="603" y="-1641"/>
         </scene>
-        <!--View Controller - Item-->
-        <scene sceneID="ycs-so-anD">
-            <objects>
-                <viewController id="Pw3-Rl-0gV" customClass="AOCPDFViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="N2k-N0-mQN"/>
-                        <viewControllerLayoutGuide type="bottom" id="gUo-SV-Zpx"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="tGW-jt-Yq3">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" suppressesIncrementalRendering="YES" paginationMode="leftToRight" paginationBreakingMode="column" translatesAutoresizingMaskIntoConstraints="NO" id="FRJ-xM-BaL">
-                                <rect key="frame" x="0.0" y="33" width="320" height="432"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <dataDetectorType key="dataDetectorTypes"/>
-                            </webView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="dOc-xn-llC"/>
-                    <connections>
-                        <outlet property="pdfViewer" destination="FRJ-xM-BaL" id="WWO-T7-Vhk"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="eYG-uy-ykx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="107" y="-895"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Vex-rW-GRa">
             <objects>
@@ -300,15 +270,50 @@
                     <connections>
                         <segue destination="pmS-ds-Bef" kind="relationship" relationship="viewControllers" id="luP-5D-d5E"/>
                         <segue destination="2RR-HB-v8N" kind="relationship" relationship="viewControllers" id="ERw-Ze-Lbg"/>
-                        <segue destination="Pw3-Rl-0gV" kind="relationship" relationship="viewControllers" id="FSw-8s-Lbu"/>
+                        <segue destination="F67-vd-hem" kind="relationship" relationship="viewControllers" id="n4a-e9-VxH"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FNP-y4-bzi" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-574" y="-1242"/>
         </scene>
+        <!--Catalog Viewer - Item-->
+        <scene sceneID="4ut-Kl-lXF">
+            <objects>
+                <pageViewController autoresizesArchivedViewToFullSize="NO" transitionStyle="pageCurl" navigationOrientation="horizontal" spineLocation="min" id="F67-vd-hem" customClass="AOCCatalogViewer" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Sfv-wj-eky"/>
+                </pageViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="29X-TG-vWn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-63" y="-671"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="awj-zS-Jj0">
+            <objects>
+                <viewController storyboardIdentifier="CatalogPage" id="sTM-71-Coa" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="j8L-e4-izX"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nct-Pm-UMU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Ld-V2-5ci">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="complete-page11.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="pvp-h9-A0v">
+                                <rect key="frame" x="-10" y="-55" width="341" height="661"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oiE-uo-dDc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="541" y="-641"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="complete-page11.jpg" width="1536" height="2067"/>
         <image name="first" width="30" height="30"/>
         <image name="second" width="30" height="30"/>
     </resources>
