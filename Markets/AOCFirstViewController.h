@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AOCFirstViewController : UIViewController
+@interface AOCFirstViewController : UITableViewController
+
 
 @end
